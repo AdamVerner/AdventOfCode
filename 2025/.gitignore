@@ -1,0 +1,7 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+AoC.sln.DotSettings.user
+.aoc_cookie.txt
