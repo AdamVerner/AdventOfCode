@@ -2,7 +2,7 @@ using AoC.Lib;
 
 namespace AoC.Day4;
 
-[AocProblem(4, "TODO: Add problem title")]
+[AocProblem(4, "Printing Department")]
 internal class SolutionDayFour : ISolution
 {
     private readonly (int x, int y)[] _neighborOffsets =

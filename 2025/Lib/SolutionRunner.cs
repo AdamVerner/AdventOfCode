@@ -89,8 +89,11 @@ public class SolutionRunner
             Console.WriteLine("Skipping part {part} as input is missing");
             return;
         }
+        var start = DateTime.Now;
         var finalResult = solver(input);
+        var elapsed = DateTime.Now - start;
         Console.WriteLine($"Part {part} final:     {finalResult}");
+        Console.WriteLine($"Part {part} time:      {elapsed.TotalMilliseconds} ms");
     }
 
     private Type? FindSolutionForDay(int day)
